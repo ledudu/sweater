@@ -4,19 +4,19 @@
 
 1. 建议使用 Chrome 最新版。
 
-2. 浏览器的 User-Agent 必须包含 jdapp，如果是 Chrome 浏览器，可以使用 [User-Agent Switcher for Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg) 扩展进行修改。
+2. 浏览器的 User-Agent 必须包含 jdapp，如果是 Chrome 浏览器，可以按 F12 在开发者工具中的 Network Conditions 中进行修改。
 
 <p align="center">
-  <img width="640" src="https://s1.ax1x.com/2020/05/27/tET9PA.png" alt="User-Agent Switcher for Chrome 的配置">
-  <p align="center">User-Agent Switcher for Chrome 的配置<p>
+  <img width="640" src="https://s1.ax1x.com/2020/05/28/tZEGb8.png" alt="打开 Network Conditions">
+  <p align="center">打开 Network Conditions<p>
 </p>
 
 <p align="center">
-  <img width="320" src="https://s1.ax1x.com/2020/05/27/tETS5d.png" alt="UA 切换">
-  <p align="center">UA 切换<p>
+  <img width="480" src="https://s1.ax1x.com/2020/05/28/tZE8Df.png" alt="修改 UA">
+  <p align="center">修改 UA<p>
 </p>
 
-3. 打开浏览器，先按 F12 打开开发者工具，再点击 Sources 选项卡，之后点击下方左边的 Snippets 选项卡（如果没有，请点击两个向右的箭头）。然后再点击 New snippet 创建一个脚本，之后把 main.js 里的内容统统粘贴进去即可。
+3. 之后点击 Sources 选项卡，并点击下方左边的 Snippets 选项卡（如果没有，请点击两个向右的箭头）。然后再点击 New snippet 创建一个脚本，之后把 main.js 里的内容统统粘贴进去即可。
 
 <p align="center">
   <img width="640" src="https://s1.ax1x.com/2020/05/27/tEozUH.png" alt="运行步骤 1">
@@ -41,4 +41,4 @@
 
 ## 注意事项
 
-1. 有网友提示每次调用后任务可能会不一样，建议脚本多跑一两次。
+1. 有网友提示每次调用后任务可能会不一样，建议脚本多跑一两次，一般三次就能跑完全部任务。
